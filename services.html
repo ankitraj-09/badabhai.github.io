@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bada Bhai</title>
+    <link rel="icon" href="./logo-bb.jpg">
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./index.css">
+    <!-- Css Files -->
+
+</head>
+
+<body>
+    <!-- Container -->
+    <div class="container">
+
+        <!-- NavBar -->
+        <nav class="navbar sticky-top navbar-expand-lg navbarSection">
+            <!-- Nav Logo -->
+            <a class="navbar-brand" href=".">
+                <div class="row justify-content-around mx-3">
+                    <img src="./logo-bb.jpg" alt="Bada Bhai" width="50px" height="50px">
+                    <h3 class="m-2">Bada Bhai</h3>
+                </div>
+            </a>
+            <!-- Toggle Button -->
+            <button id="btn-toggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"
+                aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <img src="./logo-menu.png" alt="" width="30px" height="30px">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <!-- Nav Links -->
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href=".">Home</a>
+                    <a class="nav-item nav-link active" href="">Services</a>
+                </div>
+                <!-- Nav Links -->
+                <a class="btn button mx-3 mt-2" href="" id="navBtn">Sign in</a>
+            </div>
+        </nav>
+
+        <!-- Header Section -->
+        <div class="row">
+            <div class="col-12 mb-3 p-2 text-center">
+                <h2>Our Services</h2>
+            </div>
+
+            <div class="col-12 text-start">
+                <div class="searchBox">
+                    <input type="text" id="headerSearch" placeholder="Services" autocomplete="off">
+                    <button type="submit" id="searchBtn">
+                        Find
+                    </button>
+                </div>
+
+                <div class="">
+                    <ul class="serviceList">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal Box -->
+        <div class="row modal justify-content-center">
+            <div class="modalBox text-center">
+                <h2 id="modalH">Header</h2>
+                <img id="modalImg" src="./img-body-massage.jpg" alt="">
+                <h6 id="modalCat">Type</h6>
+                <h4 id="modalCha">Price</h4>
+                <div class="modalBtns">
+                    <button id="closeBtn">Close</button>
+                    <button id="requestBtn">Request Services</button>
+                </div>
+            </div>
+
+            <!-- Request Box -->
+            <div class="requestModal text-center">
+
+                <form action="" method="POST">
+                    <div class="row justify-content-around">
+                        <img id="rmodalImg" src="./img-body-massage.jpg" alt="">
+                        <div class="text-center">
+                            <h4 id="rmh">Header</h4>
+                            <h6 id="rmcha">Charge</h6>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <input class="form-control" type="text" id="formH" placeholder="Abcde  Xyz" minlength="3"
+                            autocomplete="off" required name="services" />
+                        <input class="form-control" type="text" id="formCha" placeholder="Abcde  Xyz" minlength="3"
+                            autocomplete="off" required name="charge" />
+                    </div>
+
+                    <label for="fullName">Full Name :</label>
+                    <input class="form-control" type="text" id="fullName" placeholder="Abcde  Xyz" minlength="3"
+                        autocomplete="off" required name="name" />
+
+                    <label for="email">Email :</label>
+                    <input class="form-control" type="email" id="email" placeholder="abc@xyz.com" autocomplete="off"
+                        required name="email" />
+
+                    <label for="phoneNumber">Phone Number :</label>
+                    <input class="form-control" type="number" id="phoneNumber" placeholder="987XXXXX10" minlength="10"
+                        maxlength="10" autocomplete="off" required name="number" />
+
+                    <label for="address">Address :</label>
+                    <input class="form-control" type="text" id="address" placeholder="New Delhi, India" minlength="7"
+                        autocomplete="off" required name="address" />
+
+                    <div class="modalBtns">
+                        <button id="rcloseBtn">Close</button>
+                        <button type="submit" id="rsubmitBtn">Order Service</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Categories Sections -->
+        <div class="row my-3" id="hs">
+            <div class="col-12 text-center">
+                <h5>Home Service</h5>
+            </div>
+
+            <div class="col-12 text-center serviceScroll2" id="homeService">
+
+            </div>
+        </div>
+
+        <div class="row my-3" id="sws">
+            <div class="col-12 text-center">
+                <h5>Salon For Women</h5>
+            </div>
+
+            <div class="col-12 text-center serviceScroll2" id="salonWomenService">
+
+            </div>
+        </div>
+
+        <div class="row my-3" id="sms">
+            <div class="col-12 text-center">
+                <h5>Salon For Men</h5>
+            </div>
+
+            <div class="col-12 text-center serviceScroll2" id="salonMenService">
+
+            </div>
+        </div>
+
+        <div class="row my-3" id="vs">
+            <div class="col-12 text-center">
+                <h5>Vehicle Care</h5>
+            </div>
+
+            <div class="col-12 text-center serviceScroll2" id="vehicleService">
+
+            </div>
+        </div>
+
+        <div class="row my-3" id="es">
+            <div class="col-12 text-center">
+                <h5>Educational Support</h5>
+            </div>
+
+            <div class="col-12 text-center serviceScroll2" id="eduService">
+
+            </div>
+        </div>
+
+        <!-- Footer Sections -->
+        <div class="row my-2 footerSection justify-content-center">
+
+            <div class="col-12 my-3 p-2 text-center">
+                <h2>Bada Bhai</h2>
+                <h6>"Bada Bhai - Beyond services, We Deliver Care and Comfort at Your Doorstep."</h6>
+
+                <!-- Footer Links -->
+                <div class="row my-4 justify-content-center">
+                    <a class="mx-3" href=""><img src="./logo-fb.png" alt="" width="35px" height="35px"></a>
+                    <a class="mx-3" href=""><img src="./logo-ig.png" alt="" width="40px" height="40px"></a>
+                    <a class="mx-3" href=""><img src="./logo-tg.png" alt="" width="35px" height="35px"></a>
+                    <a class="mx-3" href=""><img src="./logo-wa.png" alt="" width="35px" height="35px"></a>
+                    <a class="mx-3" href=""><img src="./logo-ld.png" alt="" width="33px" height="33px"></a>
+                </div>
+                <!-- Footer Links -->
+
+            </div>
+
+            <!-- Copyright Section -->
+            <div class="col-md-6 text-center copyrightSection">
+                <p>Copyright © 2023 Bada Bhai, All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center copyrightSection">
+                <ul class="row justify-content-center">
+                    <li class="mx-3"><a href="">Privacy policy</a></li>
+                    <li class="mx-3"><a href="">Cookie policy</a></li>
+                </ul>
+            </div>
+            <!-- Copyright Section -->
+
+        </div>
+        <!-- Footer Sections -->
+
+    </div>
+    <!-- Container -->
+
+
+    <!-- Js Files -->
+    <script src="./jquery.js"></script>
+    <script src="./bootstrap.bundle.js"></script>
+    <script src="./services.js"></script>
+    <!-- Js Files -->
+</body>
+
+</html>
