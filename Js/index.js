@@ -18,63 +18,63 @@ function navigatePage(loc) {
 const service = [
     {
         service: "Home Services",
-        url: "../Assets/Image/img-home-service.jpg",
-        loc: "../Pages/services.html"
+        url: "./Assets/Image/img-home-service.jpg",
+        loc: "./Pages/services.html"
     },
     {
         service: "Salon For Women",
-        url: "../Assets/Image/img-face-bleach.jpg",
-        loc: "../Pages/services.html#hs"
+        url: "./Assets/Image/img-face-bleach.jpg",
+        loc: "./Pages/services.html#hs"
     },
     {
         service: "Vehicle Care",
-        url: "../Assets/Image/img-car-repair.jpg",
-        loc: "../Pages/services.html#sms"
+        url: "./Assets/Image/img-car-repair.jpg",
+        loc: "./Pages/services.html#sms"
     },
     {
         service: "Educational Support",
-        url: "../Assets/Image/img-tutor.jpg",
-        loc: "../Pages/services.html#vs"
+        url: "./Assets/Image/img-tutor.jpg",
+        loc: "./Pages/services.html#vs"
     },
     {
         service: "Salon for Men",
-        url: "../Assets/Image/img-shave.jpg",
-        loc: "../Pages/services.html#sws"
+        url: "./Assets/Image/img-shave.jpg",
+        loc: "./Pages/services.html#sws"
     },
 ];
 
 // Array of most booked service objects //
 const mostBooked = [
     {
-        url: "../Assets/Image/img-home-clean.jpg",
+        url: "./Assets/Image/img-home-clean.jpg",
         service: "House Cleaning",
         charges: "₹ 700",
         categories: "Home Services",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-haircut.jpg",
+        url: "./Assets/Image/img-haircut.jpg",
         service: "Haircut for Women",
         charges: "₹ 700",
         categories: "Salon For Women",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-gardener.jpg",
+        url: "./Assets/Image/img-gardener.jpg",
         service: "Pest Controlling",
         charges: "negotiable",
         categories: "Home Services",
         type: "negotiable"
     },
     {
-        url: "../Assets/Image/img-body-massage.jpg",
+        url: "./Assets/Image/img-body-massage.jpg",
         service: "Massage Therapy",
         charges: "₹ 700",
         categories: "Salon For Men",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-hair-straightening.jpg",
+        url: "./Assets/Image/img-hair-straightening.jpg",
         service: "Hair Straightening",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -132,14 +132,14 @@ function displayServices() {
 
 const allService = [
     {
-        url: "../Assets/Image/img-shave.jpg",
+        url: "./Assets/Image/img-shave.jpg",
         service: "Beard Grooming",
         charges: "₹ 700",
         categories: "Salon For Men",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-facial-men.jpg",
+        url: "./Assets/Image/img-facial-men.jpg",
         service: "Face Care",
         charges: "₹ 700",
         categories: "Salon For Men",
@@ -147,7 +147,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-body-massage.jpg",
+        url: "./Assets/Image/img-body-massage.jpg",
         service: "Massage Therapy",
         charges: "₹ 700",
         categories: "Salon For Men",
@@ -155,14 +155,14 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-groom-makeup.jpg",
+        url: "./Assets/Image/img-groom-makeup.jpg",
         service: "Groom Makeup",
         charges: "₹ 700",
         categories: "Salon For Men",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-shave.jpg",
+        url: "./Assets/Image/img-shave.jpg",
         service: "Haircut",
         charges: "₹ 700",
         categories: "Salon For Men",
@@ -170,14 +170,14 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-facial-men.jpg",
+        url: "./Assets/Image/img-facial-men.jpg",
         service: "Face Care",
         charges: "₹ 700",
         categories: "Salon For Men",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-bride-makeup.jpg",
+        url: "./Assets/Image/img-bride-makeup.jpg",
         service: "Bride Makeup",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -185,7 +185,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-haircut.jpg",
+        url: "./Assets/Image/img-haircut.jpg",
         service: "Haircut for Women",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -193,14 +193,14 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-mehndi.jpg",
+        url: "./Assets/Image/img-mehndi.jpg",
         service: "Mehndi",
         charges: "₹ 700",
         categories: "Salon For Women",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-face-bleach.jpg",
+        url: "./Assets/Image/img-face-bleach.jpg",
         service: "Face Bleach",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -208,14 +208,14 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-hair-straightening.jpg",
+        url: "./Assets/Image/img-hair-straightening.jpg",
         service: "Hair Straightening",
         charges: "₹ 700",
         categories: "Salon For Women",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-cleanup.jpg",
+        url: "./Assets/Image/img-cleanup.jpg",
         service: "Manicure",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -223,7 +223,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-face-bleach.jpg",
+        url: "./Assets/Image/img-face-bleach.jpg",
         service: "Pedicure",
         charges: "₹ 700",
         categories: "Salon For Women",
@@ -231,21 +231,21 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-body-massage.jpg",
+        url: "./Assets/Image/img-body-massage.jpg",
         service: "Massage For Women",
         charges: "₹ 700",
         categories: "Salon For Women",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-cleanup.jpg",
+        url: "./Assets/Image/img-cleanup.jpg",
         service: "Thread & Face Wax",
         charges: "₹ 700",
         categories: "Salon For Women",
         type: "fixed"
     },
     {
-        url: "../Assets/Image/img-home-clean.jpg",
+        url: "./Assets/Image/img-home-clean.jpg",
         service: "House Cleaning",
         charges: "₹ 700",
         categories: "Home Services",
@@ -253,7 +253,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-gardener.jpg",
+        url: "./Assets/Image/img-gardener.jpg",
         service: "Gardening",
         charges: "negotiable",
         categories: "Home Services",
@@ -261,7 +261,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-carpenter.jpg",
+        url: "./Assets/Image/img-carpenter.jpg",
         service: "Carpentry",
         charges: "negotiable",
         categories: "Home Services",
@@ -269,7 +269,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-electrician.jpg",
+        url: "./Assets/Image/img-electrician.jpg",
         service: "Electrician",
         charges: "negotiable",
         categories: "Home Services",
@@ -277,14 +277,14 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-plumber.jpg",
+        url: "./Assets/Image/img-plumber.jpg",
         service: "Plumbing",
         charges: "negotiable",
         categories: "Home Services",
         type: "negotiable"
     },
     {
-        url: "../Assets/Image/img-gardener.jpg",
+        url: "./Assets/Image/img-gardener.jpg",
         service: "Pest Controlling",
         charges: "negotiable",
         categories: "Home Services",
@@ -292,7 +292,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-painter.jpg",
+        url: "./Assets/Image/img-painter.jpg",
         service: "Painter",
         charges: "negotiable",
         categories: "Home Services",
@@ -300,7 +300,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-wallpaper.jpg",
+        url: "./Assets/Image/img-wallpaper.jpg",
         service: "Wall Paper fixing",
         charges: "negotiable",
         categories: "Home Services",
@@ -309,7 +309,7 @@ const allService = [
 
 
     {
-        url: "../Assets/Image/img-tractor.jpg",
+        url: "./Assets/Image/img-tractor.jpg",
         service: "Tractor Services",
         charges: "negotiable",
         categories: "Home Services",
@@ -317,7 +317,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-car-repair.jpg",
+        url: "./Assets/Image/img-car-repair.jpg",
         service: "Car/Bike Repairing",
         charges: "negotiable",
         categories: "Vehicle Care",
@@ -325,7 +325,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-car-washing.jpg",
+        url: "./Assets/Image/img-car-washing.jpg",
         service: "Car Washing",
         charges: "negotiable",
         categories: "Vehicle Care",
@@ -333,7 +333,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-car-dryclean.jpg",
+        url: "./Assets/Image/img-car-dryclean.jpg",
         service: "Car Dry cleaning",
         charges: "negotiable",
         categories: "Vehicle Care",
@@ -341,7 +341,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-tutor.jpg",
+        url: "./Assets/Image/img-tutor.jpg",
         service: "Home & Online Tutors",
         charges: "negotiable",
         categories: "Educational Support",
@@ -349,7 +349,7 @@ const allService = [
     },
 
     {
-        url: "../Assets/Image/img-career.jpg",
+        url: "./Assets/Image/img-career.jpg",
         service: "Carer Counselling",
         charges: "negotiable",
         categories: "Educational Support",
