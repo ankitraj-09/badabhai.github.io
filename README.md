@@ -1,1 +1,0 @@
-# badabhai.github.io
